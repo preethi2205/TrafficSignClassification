@@ -45,7 +45,7 @@ The code for this step is contained in the fourth code cell of the IPython noteb
 
 The first thing I noticed about the images in the training set was that some of them contained really dark pixels. It was hard to distinguish the traffic sign from the background in many cases. The natural next step seemed to be to improve the contrast of these images. I used histogram equalization on each of the color channels to achieve this. Below is an example of the original image and the image after histogram equalization. 
 
-![Image before equalization](FiguresForWrtieUp/OriginalImage.png)
+![Image before equalization](FiguresForWriteUp/OriginalImage.png)
 ![Image after equalization](FiguresForWriteUp/EqualizedImage.png)
 
 The next thought was to make it easier on the neural network to identify certain features such as lines and edges. These are color independent features. They can be easily identified using a gray scale image. Thus, the next step in data pre-processing was to convert the images to gray scale. Below is an example of an image converted to gray scale. 
