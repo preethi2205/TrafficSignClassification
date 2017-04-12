@@ -167,7 +167,8 @@ For the first image, the model is relatively sure correct prediction of a bumpy 
 | 0.007				    | No Passing     								|
 
 
-For the second, third, fourth and fifth images, the model is extremely certain about the sign ( image 
+For the second, third, fourth and fifth images, the model is extremely certain about the prediction.
+
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | 0.99         			| Children crossing (2nd image)					| 
